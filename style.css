@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    text-align: center;
+    /* margin-top: 10rem; */
+}
+.container h1{
+    margin-top: 10rem;
+}
+.container input{
+    margin-top: 1rem;
+    width: 35%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+}
+.container button{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    border-radius: 3px;
+    border: transparent;
+    background-color: rgb(173, 228, 228);
+}
+.container button:hover{
+    color: rgb(0, 1, 65);
+    background-color: rgb(49, 243, 178);
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.itemtext {
+    margin-left: 10px;
+}
+.delete-icon{
+    margin-left: 10px;
+    color: red;
+    cursor: pointer;
+}
+.fa-trash:before {
+    content: "\f1f8";
+    margin-left: 19rem;
+    position: fixed;
+}
+.removetext button{
+    margin-top: 0rem;
+    margin-left: 56.5rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    border-radius: 3px;
+    border: transparent;
+    color: red;
+    
+}
+.removetext button:hover{
+    background-color: aqua;
+    color: black;
+    transition: 0.5s;
+}
